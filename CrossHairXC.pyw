@@ -5,25 +5,24 @@ from PIL import Image, ImageTk
 import os
 import json
 import webbrowser
-import sv_ttk  # Added sv_ttk theme support
+import sv_ttk  
 
 class CrosshairApp:
     def __init__(self, root):
         self.root = root
         self.root.title("XC Tools Crosshair")
-        self.root.geometry("1000x400")  # Changed to horizontal layout
-        sv_ttk.set_theme("dark")  # Applying sv_ttk theme
+        self.root.geometry("1000x400")  
+        sv_ttk.set_theme("dark")  
 
-        # Initialize variables
         self.thickness = tk.IntVar(value=2)
         self.length = tk.IntVar(value=10)
         self.opacity = tk.DoubleVar(value=0.7)
-        self.color = "#800000"  # Changed to maroon
+        self.color = "#800000"  
         self.dot_size = tk.IntVar(value=5)
         self.dot_opacity = tk.DoubleVar(value=1.0)
         self.crosshair_shape = tk.StringVar(value="Plus")
-        self.dot_enabled = tk.BooleanVar(value=True)  # Added dot enable/disable option
-        self.crosshair_window = None  # Overlay window for crosshair
+        self.dot_enabled = tk.BooleanVar(value=True)  
+        self.crosshair_window = None  
 
         self.create_ui()
         self.center_window()
@@ -135,7 +134,7 @@ class CrosshairApp:
         self.thickness.set(2)
         self.length.set(10)
         self.opacity.set(0.7)
-        self.color = "#800000"  # Reset to maroon
+        self.color = "#800000"  
         self.dot_size.set(5)
         self.dot_opacity.set(1.0)
         self.crosshair_shape.set("Plus")
