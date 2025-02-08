@@ -1,5 +1,5 @@
 Free Gaming Crosshair
-Welcome to the Free Gaming Crosshair project! This tool allows gamers to customize their crosshair for a better gaming experience across various genres, including FPS and tactical games. Whether you're a beginner or a seasoned pro, this app is designed to enhance your accuracy and gameplay by providing easy-to-use and adjustable crosshair settings.
+Welcome to the CrossHairXC! This tool allows gamers to customize their crosshair for a better gaming experience across various genres, including FPS and tactical games. Whether you're a beginner or a seasoned pro, this app is designed to enhance your accuracy and gameplay by providing easy-to-use and adjustable crosshair settings.
 
 Features
 Customizable Crosshairs: Easily change the size, color, shape, and opacity of your crosshair.
